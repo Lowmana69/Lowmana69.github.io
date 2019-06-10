@@ -1,0 +1,51 @@
+a.social:hover {
+    opacity: 1;
+}
+a.twitter {
+    background-image: url(assets/images/twitter.png);
+}
+a.linkedin {
+    background-image: url(assets/images/linkedin.png);
+}
+a.github {
+    background-image: url(assets/images/github.svg);
+}
+a.gmail {
+    background-image: url(assets/images/google+.png);
+}
+a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: .5;
+    transition: all .25s;
+}
+input[type=text], input[type=email], textarea {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #000080;
+    color: #ccc;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #4169E1;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
